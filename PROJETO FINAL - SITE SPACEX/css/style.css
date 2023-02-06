@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navLogo {
+  max-width: 250px;
+}
+
+.navbar {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.arrowDown {
+  width: 100px;
+}
+
+.footer {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.footer span {
+  color: #555252;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #555252;
+}
+
+.container1 {
+  background-image: url("../../images/home/01.jpg");
+}
+
+.container2 {
+  background-image: url("../../images/home/03.jpg");
+}
+
+.container3 {
+  background-image: url("../../images/home/02.gif");
+}
+
+.container4 {
+  background-image: url("../../images/home/04.jpg");
+}
+
+.title {
+  padding-top: 200px;
+}
+
+.title1 {
+  padding: 200px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titleF1 {
+  padding-top: 300px;
+}
+
+.titleF9 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.titleF2 {
+  max-width: 630px;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.titleNumber {
+  font-size: 80px;
+}
+
+.titleCarouselF3 {
+  padding-top: 300px;
+}
+
+.subTitleF3 {
+  max-width: 400px;
+}
+
+.titleF4 {
+  padding-top: 300px;
+}
+
+.subTitleF4 {
+  max-width: 450px;
+}
+
+.tableF4 {
+  max-width: 450px;
+}
+
+.carouselF3 {
+  min-height: 100vh;
+}
+
+.mainTableCarousel {
+  max-width: 450px;
+}
+
+.carousel1 {
+  background-image: url("../../images/falcon9/03.jpg");
+}
+
+.carousel2 {
+  background-image: url("../../images/falcon9/04.jpg");
+}
+
+.carousel3 {
+  background-image: url("../../images/falcon9/05.jpg");
+}
+
+.carousel4 {
+  background-image: url("../../images/falcon9/06.jpg");
+}
+
+.carousel5 {
+  background-image: url("../../images/falcon9/07.jpg");
+}
+
+.containerF1 {
+  background-image: url("../../images/falcon9/01.jpg");
+}
+
+.containerF2 {
+  background-image: url("../../images/falcon9/02.jpg");
+}
+
+.containerF2Number {
+  background-color: black;
+}
+
+.containerF4 {
+  background-image: url("../../images/falcon9/08.jpg");
+}
+
+.containerFDown {
+  min-height: 85vh;
+  background-color: black;
+  padding-top: 300px;
+}
+.containerFDown .btn {
+  margin: 0 5px 0 5px;
+}
+
+.titleHSL1 {
+  padding-top: 300px;
+}
+.titleHSL1 h1 {
+  font-size: 80px;
+}
+.titleHSL1 .subTitleHSL1 {
+  margin: 30px 0 30px 0;
+  font-weight: 200;
+}
+
+.containerHSL2 .titleHSL2 {
+  padding-top: 300px;
+  padding-left: 40%;
+  width: auto;
+}
+.containerHSL2 .subTitleHSL2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.containerHSL3 .titleHSL3 {
+  padding-top: 300px;
+}
+.containerHSL3 .subTitleHSL3 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.containerHSL4 .titleHSL4 {
+  padding-top: 300px;
+  padding-left: 40%;
+  width: auto;
+}
+.containerHSL4 .subTitleHSL4 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.containerHSL5 .titleHSL5 {
+  padding-top: 300px;
+}
+.containerHSL5 .subTitleHSL5 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.containerHSL1 {
+  background-image: url("../../images/humanFlight/01.jpg");
+}
+
+.containerHSL2 {
+  background-image: url("../../images/humanFlight/02.jpg");
+}
+
+.containerHSL3 {
+  background-image: url("../../images/humanFlight/03.jpg");
+}
+
+.containerHSL4 {
+  background-image: url("../../images/humanFlight/04.jpg");
+}
+
+.containerHSL5 {
+  background-image: url("../../images/humanFlight/05.jpg");
+}
+
+@media (max-width: 405px) {
+  .navLogo {
+    width: 175px;
+  }
+}
+@media (max-width: 380px) {
+  .containerHSL1 h1 {
+    font-size: 30px;
+  }
+  .containerHSL1 .subTitleHSL1 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 460px) {
+  .footer {
+    font-size: 12px;
+  }
+  .titleF9 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 520px) {
+  .containerFDown .btn {
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .titleF2 {
+    font-size: 18px;
+    padding: 20px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 650px) {
+  .containerHSL1 h1 {
+    font-size: 40px;
+  }
+  .containerHSL1 .subTitleHSL1 {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

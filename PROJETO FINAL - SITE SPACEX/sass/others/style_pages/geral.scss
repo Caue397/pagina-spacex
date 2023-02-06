@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navLogo {
+  max-width: 250px;
+}
+
+.navbar {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.arrowDown {
+  width: 100px;
+}
+
+.footer {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  span {
+    color: #555252;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: #555252;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+// Títulos
+
+.titleF1 {
+  padding-top: 300px;
+}
+
+.titleF9 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.titleF2 {
+  max-width: 630px;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.titleNumber {
+  font-size: 80px;
+}
+
+.titleCarouselF3 {
+  padding-top: 300px;
+}
+
+.subTitleF3 {
+  max-width: 400px;
+}
+
+.titleF4 {
+  padding-top: 300px;
+}
+
+.subTitleF4 {
+  max-width: 450px;
+}
+
+.tableF4 {
+  max-width: 450px;
+}
+
+// Carrosel
+
+.carouselF3 {
+  min-height: 100vh;
+}
+
+.mainTableCarousel {
+  max-width: 450px;
+}
+
+.carousel1 {
+  background-image: url("../../images/falcon9/03.jpg");
+}
+
+.carousel2 {
+  background-image: url("../../images/falcon9/04.jpg");
+}
+
+.carousel3 {
+  background-image: url("../../images/falcon9/05.jpg");
+}
+
+.carousel4 {
+  background-image: url("../../images/falcon9/06.jpg");
+}
+
+.carousel5 {
+  background-image: url("../../images/falcon9/07.jpg");
+}
+
+// Containers
+
+.containerF1 {
+  background-image: url("../../images/falcon9/01.jpg");
+}
+
+.containerF2 {
+  background-image: url("../../images/falcon9/02.jpg");
+}
+
+.containerF2Number {
+  background-color: black;
+}
+
+.containerF4 {
+  background-image: url("../../images/falcon9/08.jpg");
+}
+
+.containerFDown {
+  min-height: 85vh;
+  background-color: black;
+  padding-top: 300px;
+
+  .btn {
+    margin: 0 5px 0 5px;
+  }
+}
