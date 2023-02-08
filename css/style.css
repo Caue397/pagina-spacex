@@ -19,6 +19,9 @@
   font-size: 12px;
   font-weight: 700;
 }
+.navbar #navItem:hover {
+  color: #555252;
+}
 
 .arrowDown {
   width: 100px;
@@ -112,8 +115,19 @@
   min-height: 100vh;
 }
 
+.carouselF5 {
+  min-height: 100vh;
+}
+.carouselF5 #carouselIMG {
+  min-height: 100vh;
+}
+
 .mainTableCarousel {
   max-width: 450px;
+}
+
+.captionCarousel {
+  background-color: black;
 }
 
 .carousel1 {
@@ -253,6 +267,9 @@
   .containerFDown .btn {
     margin: 20px auto 0 auto;
     display: block;
+  }
+  .containerHSL .subTitleHSL {
+    font-size: 40px;
   }
 }
 @media (max-width: 575px) {
