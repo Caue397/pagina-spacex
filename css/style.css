@@ -186,6 +186,23 @@
   font-weight: 200;
 }
 
+.containerHSLDesc {
+  height: 230px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+  p {
+    margin: 0;
+    .textBold {
+      font-weight: 600;
+    }
+  }
+}
+
 .containerHSL2 .titleHSL2 {
   padding-top: 300px;
   padding-left: 40%;
