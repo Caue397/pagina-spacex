@@ -194,13 +194,12 @@
   justify-content: center;
   align-items: center;
   font-size: 20px;
-
-  p {
-    margin: 0;
-    .textBold {
-      font-weight: 600;
-    }
-  }
+}
+.containerHSLDesc p {
+  margin: 0;
+}
+.containerHSLDesc p .textBold {
+  font-weight: 600;
 }
 
 .containerHSL2 .titleHSL2 {
