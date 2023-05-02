@@ -303,5 +303,10 @@
     font-size: 20px;
   }
 }
+@media (max-width: 810px) {
+  .containerHSLDesc p {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
